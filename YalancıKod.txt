@@ -1,0 +1,30 @@
+// YASAR BERKAY KAZKILINC 200201019
+
+Gerekli kütüphaneler tanımlanır.
+
+Gerekli değişkenler tanımlanır.
+
+void setup() {
+    
+    Seri ara birimin haberleşme hızı tanımlanır.
+    LCD ekranın ekran boyutu tanımlanır.
+    Kullanılan pinlerin giriş veya çıkış olduğu tanımlanır.
+
+}
+
+void loop() {
+
+    Tuş takımından gelen değer "harf" değişkenine atanır.
+    Eğer harf değerine giriş varsa bu değer şifre kontrolü için kaydedilir.
+    Girilen harf sayısı 4'e eşit olursa girilen şifrenin istenen şifreyle aynı olup olmadığı kontrol edilir, eğer şifreler aynıysa yeşil led yakılır, farklıysa kırmızı led yakılır.
+    
+    Sıcaklık sensöründen değer alınır ve gerekli işemler yapılarak lcd ekrana celsius biriminde yazdırılır.
+    Eğer sıcaklık 20 dereceden düşükse lcd ekrana "Sıcaklık düştü" yazdırılır.
+    Eğer sıcaklık 30 dereceden yüksekse lcd ekrana "Sıcaklık yükseldi" yazdırılır.
+     
+    Eğer yangın sensör pininden okunan değer yükselirse buzzer çalıştırılır, eğer düşerse buzzer durdurulur. 
+
+    Eğer hareket sensöründen yüksek akım okunursa lambanın bağlı olduğu pine yüksek akım gönderilir, eğer yüksek akım okunmazsa lambanın bağlı olduğu pine düşük akım göndeirlirç
+    
+
+}
